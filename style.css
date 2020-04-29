@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Montserrat:wght@200&display=swap');
+
+body {
+    font-family: 'Montserrat';
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+h1, h2, h3 {
+    font-family: 'Manrope';
+}
+
+.banner {
+    background-image: url("https://source.unsplash.com/random/1000x500");
+    background-size: cover;
+    padding: 100px 0;
+    color: white;
+    margin: -10px
+}
+
+.container {
+    width: 800px;
+    margin: 50px auto;
+}
+
+p {
+    color: grey;
+}
+
+h3 {
+    color: #313241;
+}
+
+a {
+    font-size: 10px;
+    text-decoration: none;
+    background-color: #313241b3;
+    color: white;
+    padding: 7px;
+    border-radius: 4px
+}
+
+a:hover {
+    background-color: black;
+
+}
+
+@media(max-width: 1200px) {
+    .container {
+        width: 800px;
+    }
+}
+
+@media(max-width: 992px)
+{
+    .container {
+        width: 650px;
+    }
+}
+
+@media(max-width: 768px){
+    .container {
+        width: 500px;
+    }
+}
+
+@media(max-width: 576px){
+    .container {
+        width: 300px;
+    }
+}
